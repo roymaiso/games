@@ -55,6 +55,7 @@ while running:
     screen.blit(castle, (0, 135))
     screen.blit(castle, (0, 240))
     screen.blit(castle, (0, 345))
+    
     # 6.1 - Set player position and rotation
     position = pygame.mouse.get_pos()
     angle = math.atan2(position[1] - (playerpos[1] + 32), position[0] - (playerpos[0] + 26))
